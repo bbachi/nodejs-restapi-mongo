@@ -7,7 +7,6 @@ RUN apt-get install npm -y
 RUN cd ~
 COPY . nodejs-restapi-mongo/
 WORKDIR nodejs-restapi-mongo
-RUN mv env .env
 RUN ls -l
 RUN npm install
 CMD [ "npm", "run", "dev" ]
