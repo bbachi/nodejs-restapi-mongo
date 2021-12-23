@@ -1,2 +1,0 @@
-PORT=3081
-MONGO_CONNECTION_STRING=mongodb+srv://admin:testiranje2804@cluster0.l6cms.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
